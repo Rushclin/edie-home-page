@@ -1,0 +1,56 @@
+.hero3>.container{
+    padding-inline: 100px;
+    width: 25%;
+
+    .hero3-title{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .hero3-subtitle{
+        font-size: 15px;
+    }
+
+    .hero3-subtitle:nth-child(3){
+        padding-top: 20px;
+    }
+
+    .form-input{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #F2F2F2;
+        padding: 5px;
+        border-radius: 5px;
+
+        .form-control{
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-radius: 5px;
+            border: solid 1px black; 
+            margin-right: 5px;
+
+        }
+
+        .btn{
+            padding: 10px;
+            background: none;
+            font: none;
+            border: none;
+           cursor: pointer;
+        }
+        .btn-primary{
+            background: #2D9CDB;
+            border-radius: 10px;
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .hero3>.container{
+        padding-inline: 20px;
+        width: 90%;
+    }
+}

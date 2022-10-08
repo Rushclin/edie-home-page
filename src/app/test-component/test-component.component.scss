@@ -1,0 +1,15 @@
+:root{
+
+    /* COLORS */
+
+    --blue: #2D9CDB;
+    --gray-1: #333333;
+    --gray-6: #F2F2F2;
+    --black: #100E1D;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

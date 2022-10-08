@@ -1,0 +1,13 @@
+.hero2{
+    overflow: hidden;
+    .container{
+        padding-inline: 10px;
+        margin-block: 10px;
+
+        img{
+            border-radius: 15px;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

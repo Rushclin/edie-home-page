@@ -1,0 +1,13 @@
+.face-snap-card{
+   /*  width: 35%; */
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+
+    img{
+        width: 100%;
+    }
+}

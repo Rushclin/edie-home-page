@@ -1,0 +1,29 @@
+<header class="header" ngClass="{{isClicked && 'active'}}">
+    <div class="container">
+        <h1>
+            <a href="#" class="logo">Edie</a>
+        </h1>
+        <button class="toggle-btn" (click)="toggleClick()">
+            <span class="material-symbols-outlined icon">menu</span>
+        </button>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-element">
+                    <a href="#">Home</a>
+                </li>
+                <li class="navbar-element">
+                    <a href="#">Services</a>
+                </li>
+                <li class="navbar-element">
+                    <a href="#">Our works</a>
+                </li>
+                <li class="navbar-element">
+                    <a href="#">Clients</a>
+                </li>
+                <li class="navbar-element">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,20 @@
+.hero1{
+    .container{
+        padding-inline: 100px;
+
+        .hero-subtitle{
+            color: #2D9CDB;
+            font-size: 12px;
+        }
+
+        .hero-title{
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .hero1>.container{
+        padding-inline: 20px;
+    }
+}
